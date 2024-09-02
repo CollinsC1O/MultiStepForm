@@ -163,6 +163,7 @@
                         Add-ons help enhance your gaming experience.
                     </p>
 
+                    <!-- month button -->
                     <div id="addOnMois">
                         <div class="addOnButton">
                             <div class="regroup">
@@ -203,6 +204,115 @@
 
                         </div>
                     </div>
+
+                    <!-- year button -->
+                    <div id="addOnAnne">
+                        <div class="addOnButton">
+                            <div class="regroup">
+                                <input type="checkbox" name="addOnn" id="onlineAnn" value="10">
+    
+                                <div class="addOn">
+                                    <p class="addSize">Online service</p>
+                                    <span> Access to multiplayer games</span>
+                                </div>
+                            </div>
+                            <p class="prix">+$10/yr</p>
+
+                        </div>
+
+                        <div class="addOnButton">
+                            <div class="regroup">
+                                <input type="checkbox" name="addOnn" id="storageAnne" value="20">
+    
+                                <div class="addOn">
+                                    <p class="addSize">Larger storage</p>
+                                    <span>Extra 1TB of cloud save</span>
+                                </div>
+                            </div>
+                            <p class="prix">+$20/yr</p>
+
+                        </div>
+
+                        <div class="addOnButton">
+                            <div class="regroup">
+                                <input type="checkbox" name="addOnn" id="CustomizableAnne" value="20">
+    
+                                <div class="addOn">
+                                    <p class="addSize">Customizable</p>
+                                    <span>Profile Custom theme on your profile</span>
+                                </div>
+                            </div>
+                            <p class="prix">+$20/yr</p>
+
+                        </div>
+                    </div>
+
+                    <!-- forward and bachward buttons -->
+                    <div class="buttonContainerStepThree">
+                       <button class="goBack" onclick="backStepTwo()">Go Back</button>
+
+                       <button class="nextStep" onclick="goStepFour()">Next Step</button>
+                    </div>
+                </div>
+
+                <!-- summary -->
+                <div class="stepSummary" id="stepSummary">
+                    <h1>Finishing up</h1>
+                    <p class="discription4">
+                        Double-check everything looks OK before confirming.
+                    </p>
+
+                    <div class="resume">
+                        <div class="containerResume">
+                            <div id="resumeMonth">
+
+                                <div class="flexResume">
+                                    <div>
+                                        <h4 id="modeResume"> Chose a plan</h4>
+                                        <button onclick="goFromFourToTwo()">Change</button>
+                                    </div>
+
+                                    <label for="" id="priceResume"></label>
+                                </div>
+                                <br />
+                                <span></span>
+
+                                <div class="flexResume">
+                                    <p>Online Services</p>
+                                    <label for="" id="onlinePrice">+0$</label>
+                                </div>
+
+                                <div class="flexResume">
+                                    <p>Large Storage</p>
+                                    <label for="" id="storagePrice">+0$</label>
+                                </div>
+
+                                <div class="flexResume">
+                                    <p>Customizable Profit</p>
+                                    <label for="" id="customizablePrice">+0$</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flexTotal">
+                            <p id="modeTotal">Total</p>
+                            <span id="totalPrice"></span>
+                            <span class="dolla">$</span>
+                        </div>
+
+                         <!-- forward and bachward buttons -->
+                        <div class="buttonContainerStepFour">
+                            <button class="goBack" onclick="backStepThree()">Go Back</button>
+
+                            <button class="nextStep" onclick="goToStepThankYou()">Confirm</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- thank you -->
+                <div class="stepThankYou" id="stepThankYou">
+                    
                 </div>
             </div>
         </div>
@@ -212,7 +322,6 @@
 
  
   
-  Go Back Next Step Finishing up Double-check everything looks 
-OK before confirming. Total (per month/year) Go Back Confirm Thank you! Thanks for confirming your subscription! 
+  Total (per month/year) Go Back Confirm Thank you! Thanks for confirming your subscription! 
 We hope you have fun using our platform. If you ever need support, please feel free to email us at support@loremgaming.com.
 Challenge by Frontend Mentor. Coded by Your Name Here. 
