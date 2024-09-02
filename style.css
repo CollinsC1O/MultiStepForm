@@ -1,0 +1,148 @@
+body {
+    font-family: ;
+}
+
+button {
+    font-family: ;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px rgba(47, 18, 18, 0.101);
+    width: 1000px;
+    height: 568px;
+}
+
+.display_steps{
+    display: flex;
+    justify-content: center;
+    width: 274px;
+    height: 568px;
+    background-color: rgba(30, 16, 186, 0);
+    background-image: url(./assets/images/bg-sidebar-desktop.svg);
+}
+
+.circles{
+    position: relative;
+    background-color: rgba(220, 20, 60, 0);
+    width: 20%;
+    color: white;
+    font-weight: 500;
+    height: 50%;
+    margin-top: 15%;
+    display: flex;
+    font-display: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circles p{
+    margin-top: 10px;
+}
+
+.circle1{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.circle2{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(0,0,0,0);
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.circle3{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(0,0,0,0);
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+.circle4{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(0,0,0,0);
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.steps{
+    position: relative;
+    background-color: rgba(255, 255, 0, 0);
+    display: flex;
+    font-display: column;
+    justify-content: space-between;
+    width: 60%;
+    height: 50%;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.step1{
+    position: inherit;
+    padding-left: 5px;
+    background-color: rgba(156, 55, 55, 0);
+}
+.steps p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 14px;
+    color: hsl(231, 11%, 63%);
+}
+.steps span{
+    color: white;
+}
+
+.step_container{
+    background-color: rgba(210, 96, 14, 0);
+    width: 50%;
+    height: 550px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+
+}
+
+#stepInfo{
+    display: flex;flex-direction: column;
+}
+#stepPlan{
+    display: flex;flex-direction: column;
+}
+#stepAddOn{
+    display: flex;flex-direction: column;
+}
+#stepSummary{
+    display: flex;flex-direction: column;
+}
+
+
+
+.container{
+    margin-left: 0px;
+}
+.{}
+.{} 
+
+.{}
+.{}
+.{}
+.{} 
