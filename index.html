@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <div class="container" id="container">
+
+            <div class="display_steps">
+                <div class="circles">
+                    <div class="circle1" id="circle1"><p>1</p></div>
+                    <div class="circle2" id="circle2"><p>2</p></div>
+                    <div class="circle3" id="circle3"><p>3</p></div>
+                    <div class="circle4" id="circle4"><p>4</p></div>
+                </div>
+
+                <div class="steps">
+                    <div class="step1">
+                        <p>Step 1</p>
+                        <span>Your info </span>
+                    </div>
+
+                    <div class="step1">
+                        <p>Step 2</p>
+                        <span>Select plan</span>
+                    </div>
+
+                    <div class="step1">
+                        <p>Step 3</p>
+                        <span>Add-ons</span>
+                    </div>
+
+                    <div class="step1">
+                        <p>Step 4</p>
+                        <span>Summary</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step_container" id="step_container">
+
+                <div class="afichStep">
+                    <div class="stepInfo" id="stepInfo">
+                        <h1>Personal info</h1>
+                        <p class="description">
+                            Please provide your name, email address, and phone number.
+                        </p>
+
+                        <div class="ErrorMsg">
+                            <p>Name</p>
+                            <span class="error_name" id="error_name"></span>
+                        </div>
+                        <input 
+                        type="text" 
+                        name="" 
+                        id="infoName" 
+                        placeholder="e.g. Stephen King">
+
+                        <!-- for email address -->
+                        <div class="ErrorMsg">
+                            <p>Email Address</p>
+                            <span class="error_mail" id="error_mail"></span>
+                        </div>
+                        <input 
+                        type="text" 
+                        name="" 
+                        id="infoMail" 
+                        placeholder="e.g. stephenking@lorem.com">
+
+                        <!-- for phone number -->
+                        <div class="ErrorMsg">
+                            <p>Phone Number</p>
+                            <span class="error_numb" id="error_numb"></span>
+                        </div>
+                        <input 
+                        type="text" 
+                        name="" 
+                        id="infoNumb" 
+                        placeholder="e.g. +1 234 567 890">
+
+                        <div class="button_containerStepOne">
+                            <button onclick="goStepTwo()" class="nextStep">
+                                Next Step
+                            </button>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- select plan -->
+                <div class="stepPlan" id="stepPlan">
+                    <h1></h1>
+                    <p class="description2">
+                        Select your plan You have the option of monthly or yearly billing. 
+                    </p>
+
+                    <div class="planMonth" id="planMonth">
+                        <button class="planButton" id="moisArcade" onclick="getPrice1()">
+                            <img src="./assets/images/icon-arcade.svg" alt="" srcset="">
+                            <p>Arcade</p>
+                            <span class="priceMonth" id="priceMonth">$9/mo</span>
+                        </button>
+
+                        <button class="planButton" id="moisArcade" onclick="getPrice1()">
+                            <img src="./assets/images/icon-advanced.svg" alt="" srcset="">
+                            <p>Advanced</p>
+                            <span class="priceMonth" id="priceMonth">$12/mo</span>
+                        </button>
+
+                        <button class="planButton" id="moisArcade" onclick="getPrice1()">
+                            <img src="./assets/images/icon-pro.svg" alt="" srcset="">
+                            <p>Pro</p>
+                            <span class="priceMonth" id="priceMonth">$15/mo</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+ Monthly Yearly Go Back Next Step Pick add-ons Add-ons help enhance your gaming experience. 
+Online service Access to multiplayer games +$1/mo Larger storage Extra 1TB of cloud save +$2/mo Customizable 
+Profile Custom theme on your profile +$2/mo Go Back Next Step Finishing up Double-check everything looks 
+OK before confirming. Total (per month/year) Go Back Confirm Thank you! Thanks for confirming your subscription! 
+We hope you have fun using our platform. If you ever need support, please feel free to email us at support@loremgaming.com.
+Challenge by Frontend Mentor. Coded by Your Name Here. 
